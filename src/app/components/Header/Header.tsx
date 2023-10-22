@@ -3,6 +3,8 @@ import logoImg from "../../../../public/assets/logo.svg";
 import burgerImg from "../../../../public/assets/icons/icon-hamburger.svg";
 import { useRouter } from "next/navigation";
 import Burgermenu from "./BurgerMenu";
+import { setBurger } from "@/features/burgermenuSlice";
+import { useDispatch } from "react-redux";
 
 export default function Header(): JSX.Element {
   const router = useRouter();
@@ -10,6 +12,8 @@ export default function Header(): JSX.Element {
   const handleGoHomePage = (): void => {
     router.push("/");
   };
+  // to use redux reducer functions
+  const dispatch = useDispatch();
 
   return (
     <div className="flex w-full justify-between p-8 items-center">
@@ -20,6 +24,7 @@ export default function Header(): JSX.Element {
         onClick={handleGoHomePage}
       />
       <img
+        onClick={() => dispatch(setBurger())}
         className="w-[24px] h-[17px]"
         src={burgerImg.src}
         alt="burger menu"

@@ -5,9 +5,10 @@ import { useSelector } from "react-redux";
 
 const Burgermenu = (): JSX.Element => {
   const burgerIsOpen = useSelector((store: Rootstate) => store.burger.open);
+
   return (
     <div
-      className={`w-[343px] flex  items-center px-12 py-[39px]  bg-[#EEEFF4] top-[96px] right-0 ${
+      className={`w-[343px] transition-all duration-1000 flex  items-center px-12 py-[39px]  bg-[#EEEFF4] top-[96px] right-0 ${
         burgerIsOpen ? "absolute right-0" : "fixed right-[-100%]"
       } `}
     >
