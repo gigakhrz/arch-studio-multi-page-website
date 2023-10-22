@@ -18,14 +18,14 @@ export default function Header(): JSX.Element {
   return (
     <div className="flex w-full justify-between p-8 items-center">
       <img
-        className="w-[77px] h-[32px]"
+        className="w-[77px] h-[32px] cursor-pointer"
         src={logoImg.src}
         alt="logoImg"
         onClick={handleGoHomePage}
       />
       <img
         onClick={() => dispatch(setBurger())}
-        className="w-[24px] h-[17px]"
+        className="w-[24px] h-[17px] cursor-pointer"
         src={burgerImg.src}
         alt="burger menu"
       />
