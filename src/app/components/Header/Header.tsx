@@ -10,7 +10,7 @@ export default function Header(): JSX.Element {
   const router = useRouter();
   // to go home page when click on logo img
   const handleGoHomePage = (): void => {
-    router.push("/");
+    router.push("/destionation/dadksa");
   };
   // to use redux reducer functions
   const dispatch = useDispatch();
@@ -29,6 +29,7 @@ export default function Header(): JSX.Element {
         src={burgerImg.src}
         alt="burger menu"
       />
+      <input type="dropdown" className="w-[50px] h-[40px]" />
       <Burgermenu />
     </div>
   );
