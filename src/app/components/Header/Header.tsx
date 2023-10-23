@@ -29,7 +29,6 @@ export default function Header(): JSX.Element {
         src={burgerImg.src}
         alt="burger menu"
       />
-      <input type="dropdown" className="w-[50px] h-[40px]" />
       <Burgermenu />
     </div>
   );
