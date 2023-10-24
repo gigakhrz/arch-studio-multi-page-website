@@ -14,6 +14,7 @@ export default function Header(): JSX.Element {
   };
   // to use redux reducer functions
   const dispatch = useDispatch();
+  console.log("hello world");
 
   return (
     <div className="flex w-full justify-between p-8 items-center">
