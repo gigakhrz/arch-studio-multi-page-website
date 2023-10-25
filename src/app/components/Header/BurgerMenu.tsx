@@ -1,6 +1,5 @@
-"use client";
-
 import { Rootstate } from "@/features/store";
+import Link from "next/link";
 import { useSelector } from "react-redux";
 
 const Burgermenu = (): JSX.Element => {
@@ -13,15 +12,24 @@ const Burgermenu = (): JSX.Element => {
       } `}
     >
       <div className="w-full flex flex-col gap-[17px] items-start">
-        <p className="text-[#1B1D23] text-[32px] leading-[40px] font-bold">
+        <Link
+          href="/portfolio"
+          className="text-[#1B1D23] text-[32px] leading-[40px] font-bold"
+        >
           Portfolio
-        </p>
-        <p className="text-[#1B1D23] text-[32px] leading-[40px] font-bold">
+        </Link>
+        <Link
+          href="/about"
+          className="text-[#1B1D23] text-[32px] leading-[40px] font-bold"
+        >
           About Us
-        </p>
-        <p className="text-[#1B1D23] text-[32px] leading-[40px] font-bold">
+        </Link>
+        <Link
+          href="/contact"
+          className="text-[#1B1D23] text-[32px] leading-[40px] font-bold"
+        >
           Contact
-        </p>
+        </Link>
       </div>
     </div>
   );
