@@ -5,7 +5,7 @@ import Welcome from "./components/homeChilds/Welocome";
 
 export default function Home() {
   return (
-    <div className="flex gap-[72px] items-center flex-col">
+    <div className="flex gap-[72px] items-center flex-col mb-[132px]">
       <Paramour />
       <Welcome />
       <About />
