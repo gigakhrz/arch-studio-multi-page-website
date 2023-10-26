@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Paramour from "./components/homeChilds/Paramour";
 import Welcome from "./components/homeChilds/Welocome";
 
