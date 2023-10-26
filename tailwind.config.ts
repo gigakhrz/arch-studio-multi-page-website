@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "parramour-img": "url('/assets/home/mobile/image-hero-paramour.jpg')",
+        "parramourMob-img":
+          "url('/assets/home/mobile/image-hero-paramour.jpg')",
       },
     },
   },
