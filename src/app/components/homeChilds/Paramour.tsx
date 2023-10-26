@@ -3,17 +3,8 @@ import ParamourImg from "../../../../public/assets/home/mobile/image-hero-paramo
 import arrowIcon from "../../../../public/assets/icons/Group 18.svg";
 
 const Paramour = (): JSX.Element => {
-  // styles taht can't add using tailwind
-  const paramourStyle = {
-    backgroundImage: `url(${ParamourImg.src})`,
-    backgroundSize: "cover",
-  };
-
   return (
-    <div
-      className="w-full flex flex-col py-[113px] px-8 relative gap-[83px]"
-      style={paramourStyle}
-    >
+    <div className="w-full flex flex-col py-[113px] px-8 relative gap-[83px] bg-parramour-img bg-no-repeat	bg-cover	">
       <div className=" z-10 flex flex-col items-center w-full justify-center gap-[11px]">
         <h1 className="text-[48px] leading-[48px] tracking-[-1.2px] text-white self-center font-bold">
           Project Paramour
