@@ -1,4 +1,5 @@
 import About from "./components/homeChilds/About";
+import Feature from "./components/homeChilds/Feature";
 import Paramour from "./components/homeChilds/Paramour";
 import Welcome from "./components/homeChilds/Welocome";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Paramour />
       <Welcome />
       <About />
+      <Feature />
     </div>
   );
 }
