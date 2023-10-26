@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const FeaturesChilds = (): JSX.Element => {
   return (
     <div className="flex flex-col w-full gap-[24px]">
@@ -5,9 +7,12 @@ const FeaturesChilds = (): JSX.Element => {
         <h1 className=" z-10 text-[32px] leading-[40px]  text-white self-start font-bold">
           Project Del Sol
         </h1>
-        <h3 className=" z-10 text-[18px] leading-[24px]  text-white self-start font-medium opacity-75">
+        <Link
+          href="/portfolio"
+          className=" z-10 text-[18px] leading-[24px]  text-white self-start font-medium opacity-75"
+        >
           View All Projects
-        </h3>
+        </Link>
 
         {/* for overlay */}
         <div className="w-full h-full bg-black opacity-50 absolute top-0 left-0"></div>
@@ -19,9 +24,12 @@ const FeaturesChilds = (): JSX.Element => {
         <h1 className=" z-10 text-[32px] leading-[40px]  text-white self-start font-bold">
           228B Tower
         </h1>
-        <h3 className=" z-10 text-[18px] leading-[24px]  text-white self-start font-medium opacity-75">
+        <Link
+          href="/portfolio"
+          className=" z-10 text-[18px] leading-[24px]  text-white self-start font-medium opacity-75"
+        >
           View All Projects
-        </h3>
+        </Link>
         {/* for overlay */}
         <div className="w-full h-full bg-black opacity-50 absolute top-0 left-0"></div>
       </div>
@@ -32,9 +40,12 @@ const FeaturesChilds = (): JSX.Element => {
         <h1 className=" z-10 text-[32px] leading-[40px]  text-white self-start font-bold">
           Le Prototype
         </h1>
-        <h3 className=" z-10 text-[18px] leading-[24px]  text-white self-start font-medium opacity-75">
+        <Link
+          href="/portfolio"
+          className=" z-10 text-[18px] leading-[24px]  text-white self-start font-medium opacity-75"
+        >
           View All Projects
-        </h3>
+        </Link>
 
         {/* for overlay */}
         <div className="w-full h-full bg-black opacity-50 absolute top-0 left-0"></div>
