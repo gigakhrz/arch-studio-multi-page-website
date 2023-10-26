@@ -1,19 +1,9 @@
 import Link from "next/link";
-import aboutImg from "../../../../public/assets/home/mobile/image-small-team.jpg";
 import arrowIcon from "../../../../public/assets/icons/Group 18.svg";
 
 const About = (): JSX.Element => {
-  // styles taht can't add using tailwind
-  const paramourStyle = {
-    backgroundImage: `url(${aboutImg.src})`,
-    backgroundSize: "cover",
-  };
-
   return (
-    <div
-      className="w-full flex flex-col items-start justify-center px-8 relative gap-[23px] h-[560px]"
-      style={paramourStyle}
-    >
+    <div className="w-full flex flex-col items-start justify-center px-8 relative gap-[23px] h-[560px] bg-aboutMob-img bg-no-repeat	bg-cover">
       <h1 className=" z-10 text-[48px] leading-[48px] tracking-[-1.2px] text-white self-center font-bold">
         Small team, big ideas
       </h1>
