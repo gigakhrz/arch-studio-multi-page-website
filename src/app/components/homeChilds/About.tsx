@@ -11,7 +11,7 @@ const About = (): JSX.Element => {
 
   return (
     <div
-      className="w-full flex flex-col py-[113px] px-8 relative gap-[23px]"
+      className="w-full flex flex-col items-start justify-center px-8 relative gap-[23px] h-[560px]"
       style={paramourStyle}
     >
       <h1 className=" z-10 text-[48px] leading-[48px] tracking-[-1.2px] text-white self-center font-bold">
