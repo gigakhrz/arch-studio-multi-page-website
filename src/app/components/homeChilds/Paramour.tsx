@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ParamourImg from "../../../../public/assets/home/mobile/image-hero-paramour.jpg";
+import arrowIcon from "../../../../public/assets/icons/Group 18.svg";
 
 const Paramour = (): JSX.Element => {
   // styles taht can't add using tailwind
@@ -23,8 +24,17 @@ const Paramour = (): JSX.Element => {
         </p>
       </div>
 
-      <Link href="/portfolio"></Link>
+      <Link
+        className="flex items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px]"
+        href="/portfolio"
+      >
+        <h4 className="text-[18px] leading-[25px] font-bolds text-white ">
+          See Our Portfolio
+        </h4>
+        <img src={arrowIcon.src} alt="arrow img" />
+      </Link>
 
+      {/* for overlay */}
       <div className="w-full h-full bg-black opacity-50 absolute top-0 left-0"></div>
     </div>
   );
