@@ -10,7 +10,7 @@ export default function Header(): JSX.Element {
   const router = useRouter();
   // to go home page when click on logo img
   const handleGoHomePage = (): void => {
-    router.push("/destionation/dadksa");
+    router.push("/");
   };
   // to use redux reducer functions
   const dispatch = useDispatch();
