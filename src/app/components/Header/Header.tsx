@@ -1,3 +1,4 @@
+"use client";
 import logoImg from "../../../../public/assets/logo.svg";
 import burgerImg from "../../../../public/assets/icons/icon-hamburger.svg";
 import { useRouter } from "next/navigation";
