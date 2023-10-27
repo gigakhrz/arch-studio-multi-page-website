@@ -1,10 +1,10 @@
 import Link from "next/link";
-import logoImg from "../../../../public/assets/logo.svg";
+import logoImg from "../../../../public/assets/icons/Logo.svg";
 import arrowIcon from "../../../../public/assets/icons/Group 18.svg";
 const Footer = (): JSX.Element => {
   return (
-    <div className="flex flex-col items-center justify-center gap-[32px]">
-      <img src={logoImg.src} alt="logo image" />
+    <div className="flex flex-col items-center justify-center gap-[32px] bg-[#EEEFF4]">
+      <img src={logoImg.src} alt="logo image" className="mt-[-60px]" />
       <Link
         className="text-[#7D828F] text-[18px] font-bold leading-[25px] "
         href="/portfolio"
