@@ -1,16 +1,6 @@
+import { allProject } from "./projectData";
+
 export default function Portfolio() {
-  const allProject = [
-    {
-      name: "Seraph Station",
-      date: "September 2019",
-      image: "/assets/portfolio/mobile/image-eebox.jpg",
-    },
-    {
-      name: "Eebox Building",
-      date: "August 2017",
-      image: "/assets/portfolio/mobile/image-seraph.jpg",
-    },
-  ];
   return (
     <div className="mt-[56px] mb-[132px] flex flex-col items-center gap-[24px] w-full ">
       {allProject.map((project, index) => {
