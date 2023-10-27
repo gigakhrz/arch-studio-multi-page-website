@@ -3,7 +3,7 @@ import { allProject } from "./projectData";
 export default function Portfolio() {
   return (
     <div className="mt-[56px] mb-[132px] flex flex-col items-center gap-[24px] w-full ">
-      {allProject.map((project, index) => {
+      {allProject.allProject.map((project, index) => {
         return (
           <div
             key={index}
