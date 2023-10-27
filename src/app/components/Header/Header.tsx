@@ -1,4 +1,3 @@
-"use client";
 import logoImg from "../../../../public/assets/logo.svg";
 import burgerImg from "../../../../public/assets/icons/icon-hamburger.svg";
 import { useRouter } from "next/navigation";
@@ -14,7 +13,6 @@ export default function Header(): JSX.Element {
   };
   // to use redux reducer functions
   const dispatch = useDispatch();
-  console.log("hello world");
 
   return (
     <div className="flex w-full justify-between p-8 items-center">
