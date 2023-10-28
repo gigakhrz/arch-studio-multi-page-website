@@ -18,6 +18,7 @@ export default function Portfolio() {
     };
   }, []);
 
+  //   function that catch responsive increation to change project image based on this
   function getDeviceType() {
     const width = window.innerWidth;
 
