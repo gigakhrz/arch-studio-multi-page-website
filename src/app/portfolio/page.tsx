@@ -45,7 +45,7 @@ export default function Portfolio() {
           <div
             key={index}
             className="w-[311px] h-[240px] flex flex-col items-start justify-end px-[24px] py-[23px] relative bg-no-repeat bg-cover"
-            style={{ backgroundImage: `url(${imageUrl})` }} // Set background image
+            style={{ backgroundImage: `url(${imageUrl})` }} // Set background image//
           >
             <h1 className="z-10 text-[32px] leading-[40px] text-white self-start font-bold">
               {project.name}
