@@ -62,7 +62,7 @@ export const allProject: Projects = {
       date: "December 2013",
       image: "/assets/portfolio/mobile/image-edelweiss.jpg",
       image1: "/assets/portfolio/tablet/image-edelweiss.jpg",
-      image2: "/assets/portfolio/desltop/image-edelweiss.jpg",
+      image2: "/assets/portfolio/desktop/image-edelweiss.jpg",
     },
 
     {
