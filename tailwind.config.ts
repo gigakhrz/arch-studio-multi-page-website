@@ -19,6 +19,9 @@ const config: Config = {
         aboutMob: "url('/assets/about/mobile/image-hero.jpg')",
         aboutTab: "url('/assets/about/tablet/image-hero.jpg')",
         aboutDes: "url('/assets/about/desktop/image-hero.jpg')",
+        contactMob: "url('/assets/contact/mobile/image-hero.jpg')",
+        contactTab: "url('/assets/contact/tablet/image-hero.jpg')",
+        contactDes: "url('/assets/contact/desktop/image-hero.jpg')",
       },
       gradients: {
         "custom-gradient":
