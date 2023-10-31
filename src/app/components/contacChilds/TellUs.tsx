@@ -1,4 +1,4 @@
-const Team = (): JSX.Element => {
+const TellUs = (): JSX.Element => {
   return (
     <div className="flex w-[375px] flex-col items-start justify-center gap-[20px] ">
       <div className="relative w-full h-[240px] bg-aboutMob bg-no-repea bg-cover flex items-end justify-start ">
@@ -24,4 +24,4 @@ const Team = (): JSX.Element => {
   );
 };
 
-export default Team;
+export default TellUs;
