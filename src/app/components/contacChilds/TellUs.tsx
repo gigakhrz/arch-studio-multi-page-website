@@ -1,7 +1,7 @@
 const TellUs = (): JSX.Element => {
   return (
     <div className="flex w-[375px] flex-col items-start justify-center gap-[20px] ">
-      <div className="relative w-full h-[240px] bg-aboutMob bg-no-repea bg-cover flex items-end justify-start ">
+      <div className="relative w-full h-[240px] bg-contactMob bg-no-repea bg-cover flex items-end justify-start ">
         <div className="bg-white w-[343px] h-[45px] z-10"></div>
         <div className="bg-black absolute w-full h-full left-0 top-0 opacity-50"></div>
       </div>
