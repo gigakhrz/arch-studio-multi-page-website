@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,6 +16,9 @@ const config: Config = {
         "protorypeMob-img":
           "url('/assets/portfolio/mobile/image-prototype.jpg')",
         "aboutMob-img": "url('/assets/home/mobile/image-small-team.jpg')",
+        aboutMob: "url('/assets/about/mobile/image-hero.jpg')",
+        aboutTab: "url('/assets/about/tablet/image-hero.jpg')",
+        aboutDes: "url('/assets/about/desktop/image-hero.jpg')",
       },
     },
   },
