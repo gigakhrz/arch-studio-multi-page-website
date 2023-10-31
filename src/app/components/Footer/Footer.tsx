@@ -14,14 +14,14 @@ const Footer = (): JSX.Element => {
 
       <Link
         className="text-[#7D828F] text-[18px] font-bold leading-[25px] "
-        href="/portfolio"
+        href="/about"
       >
         About us
       </Link>
 
       <Link
         className="text-[#7D828F] text-[18px] font-bold leading-[25px] "
-        href="/portfolio"
+        href="/contact"
       >
         Contact
       </Link>
