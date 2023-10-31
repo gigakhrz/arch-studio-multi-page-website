@@ -1,6 +1,6 @@
 const Heritage = (): JSX.Element => {
   return (
-    <div className="flex w-[375px] items-center px-[32px]">
+    <div className="flex w-[375px] items-center px-[32px] mb-[43px]">
       <div className=" flex flex-col items-start gap-[22px] ">
         <h1 className="text-[48px] leading-[52px] font-bold tracking=[-1.72px] text-[#1B1D23]">
           Our <br /> Heritage
