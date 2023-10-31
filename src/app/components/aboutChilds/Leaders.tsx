@@ -34,7 +34,35 @@ const Leadrs = (): JSX.Element => {
       },
     ],
   };
-  return <></>;
+  return (
+    <div className="flex flex-col items-start gap-[55px] w-[375px] px-[32px] ">
+      <h1 className="text-[48px] leading-[52px] font-bold tracking=[-1.72px] text-[#1B1D23]">
+        The <br /> Leaders
+      </h1>
+
+      <div className="flex flex-col items-start gap-[79px]">
+        {teamLeaders.leaders.map((leader, index) => {
+          return (
+            <div key={index} className="flex flex-col items-start gap-[15px]">
+              <img
+                src={leader.img}
+                alt="leader image"
+                className="w-[311px] h-[284px]"
+              />
+              <div className="flex flex-col items-start">
+                <h1 className="text-[32px] leading-[40px] font-bold text-[#1B1D23]">
+                  {leader.fullName}
+                </h1>
+                <h2 className="text-[18px] leading-[24px]  font-medium text-[#1B1D23]">
+                  {leader.position}
+                </h2>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default Leadrs;
