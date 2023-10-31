@@ -3,7 +3,7 @@ import aboutImg from "../../../../public/assets/about/mobile/image-hero.jpg";
 const Team = (): JSX.Element => {
   return (
     <div className="flex w-[375px] flex-col items-start justify-center gap-[20px] px-[32px]">
-      <div className="relative w-full h-[240px]"></div>
+      <div className="relative w-full h-[240px] bg-aboutMob bg-no-repeat	bg-cover"></div>
 
       <div className="flex flex-col gap-[76px] items-start">
         <div className="flex flex-col gap-[21px] w-full">
