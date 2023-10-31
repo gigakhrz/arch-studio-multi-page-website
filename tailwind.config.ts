@@ -20,6 +20,10 @@ const config: Config = {
         aboutTab: "url('/assets/about/tablet/image-hero.jpg')",
         aboutDes: "url('/assets/about/desktop/image-hero.jpg')",
       },
+      gradients: {
+        "custom-gradient":
+          "linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0.01%, rgba(0, 0, 0, 0.50) 100%)",
+      },
     },
   },
   plugins: [],
