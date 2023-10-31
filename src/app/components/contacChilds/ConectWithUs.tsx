@@ -1,8 +1,8 @@
-import arrowSvg from "../../../../public/assets/icons/icon-white-arrow.svg";
+import arrowSvg from "../../../../public/assets/icons/Group 18.svg";
 
 export default function ConnectWith() {
   return (
-    <div className="w-[375px] px-[32px] gap-[42px] flex flex-col mb-[132px]">
+    <div className="w-[375px] px-[32px] gap-[42px] flex flex-col ">
       <h2 className="text-[48px] text-[#1B1D23] w-[200px] font-bold leading-[52px] tracking-[-1.714px]">
         Connect with us
       </h2>
