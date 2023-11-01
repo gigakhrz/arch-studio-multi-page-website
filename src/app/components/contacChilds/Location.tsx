@@ -2,6 +2,7 @@
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
+import marker from "../../../../public/assets/icons/Combined-Shape.svg";
 
 export default function LocationMap(): JSX.Element {
   const markers = [
@@ -17,12 +18,12 @@ export default function LocationMap(): JSX.Element {
   ];
 
   const customIcon = new Icon({
-    iconUrl: require("./img/Combined-Shape.svg"),
+    iconUrl: marker.src,
     iconSize: [40, 48],
   });
 
   return (
-    <div className="w-[375px] h-[367px]">
+    <div className="w-full h-[367px]">
       <MapContainer
         center={[34.756846, -90.068075]}
         zoom={3}
