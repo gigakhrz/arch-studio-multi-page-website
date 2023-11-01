@@ -5,14 +5,17 @@ import { useRouter } from "next/navigation";
 import Burgermenu from "./BurgerMenu";
 import { setBurger } from "@/features/burgermenuSlice";
 import { useDispatch } from "react-redux";
+import { usePathname } from "next/navigation";
 
 export default function Header(): JSX.Element {
   const router = useRouter();
+  const pathname = usePathname();
   // to go home page when click on logo img
   const handleGoHomePage = (): void => {
     router.push("/");
   };
 
+  console.log(pathname);
   // to use redux reducer functions
   const dispatch = useDispatch();
 
