@@ -23,10 +23,10 @@ export default function LocationMap(): JSX.Element {
   });
 
   return (
-    <div className="w-full h-[367px]">
+    <div className="w-full md:h-[572px] md:w-[560px] h-[367px]">
       <MapContainer
         center={[34.756846, -90.068075]}
-        zoom={3}
+        zoom={5}
         scrollWheelZoom={false}
         style={{ width: "100%", height: "100%" }}
       >
