@@ -23,7 +23,11 @@ export default function ContactDetails() {
             </p>
           </div>
         </div>
-        <a className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]">
+        <a
+          target="_blank"
+          href="https://www.google.com/maps/d/u/0/edit?mid=1WHvigrNtoqLTsDEahSfbd-DWvInBbjE&usp=sharing"
+          className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]"
+        >
           View on Map <img src={ArrowSvg.src} alt="arrow svg" />
         </a>
       </div>
@@ -45,7 +49,11 @@ export default function ContactDetails() {
             </p>
           </div>
         </div>
-        <a className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]">
+        <a
+          target="_blank"
+          href="https://www.google.com/maps/d/u/0/edit?mid=1WHvigrNtoqLTsDEahSfbd-DWvInBbjE&usp=sharing"
+          className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]"
+        >
           View on Map <img src={ArrowSvg.src} alt="arrow svg" />
         </a>
       </div>
