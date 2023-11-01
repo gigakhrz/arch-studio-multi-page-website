@@ -34,9 +34,15 @@ export default function LocationMap(): JSX.Element {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {markers.map((marker) => {
+        {markers.map((marker, index) => {
           const [lat, lng] = marker.geocode;
-          return <Marker position={[lat, lng]} icon={customIcon}></Marker>;
+          return (
+            <Marker
+              key={index}
+              position={[lat, lng]}
+              icon={customIcon}
+            ></Marker>
+          );
         })}
       </MapContainer>
     </div>
