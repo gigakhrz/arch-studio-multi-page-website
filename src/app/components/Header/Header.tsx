@@ -12,6 +12,7 @@ export default function Header(): JSX.Element {
   const handleGoHomePage = (): void => {
     router.push("/");
   };
+
   // to use redux reducer functions
   const dispatch = useDispatch();
 
