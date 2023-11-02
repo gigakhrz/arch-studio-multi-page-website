@@ -1,5 +1,5 @@
 "use client";
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, Marker, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
 import marker from "../../../../public/assets/icons/Combined-Shape.svg";
