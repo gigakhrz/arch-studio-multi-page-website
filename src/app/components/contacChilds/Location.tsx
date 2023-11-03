@@ -22,6 +22,9 @@ export default function LocationMap(): JSX.Element {
     iconSize: [40, 48],
   });
 
+  //   delete this one
+  console.log("hello helloo");
+
   return (
     <div className="w-full md:h-[572px] md:w-[560px] h-[367px]">
       <MapContainer
