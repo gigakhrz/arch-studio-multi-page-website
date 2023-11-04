@@ -7,7 +7,7 @@ const Burgermenu = (): JSX.Element => {
 
   return (
     <div
-      className={` z-20 w-[343px] transition-all duration-1000 flex  items-center px-12 py-[39px]  bg-[#EEEFF4] top-[96px] right-0 ${
+      className={` z-20 w-[343px] transition-all duration-1000 flex  items-center px-12 py-[39px]  bg-[#EEEFF4] md:hidden top-[96px] right-0 ${
         burgerIsOpen ? "absolute right-0" : "fixed right-[-100%]"
       } `}
     >
