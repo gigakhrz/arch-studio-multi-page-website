@@ -29,7 +29,7 @@ export default function Header(): JSX.Element {
       />
       <img
         onClick={() => dispatch(setBurger())}
-        className="w-[24px] h-[17px] cursor-pointer"
+        className="w-[24px] h-[17px] cursor-pointer md:hidden"
         src={burgerImg.src}
         alt="burger menu"
       />
