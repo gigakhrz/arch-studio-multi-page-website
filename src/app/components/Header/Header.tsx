@@ -10,15 +10,32 @@ import Navbar from "./Navbar";
 
 export default function Header(): JSX.Element {
   const router = useRouter();
-  const pathname = usePathname();
   // to go home page when click on logo img
   const handleGoHomePage = (): void => {
     router.push("/");
   };
 
-  console.log(pathname);
   // to use redux reducer functions
   const dispatch = useDispatch();
+
+  // A page pointer, it changes as the page changes.
+  const pathName = usePathname();
+
+  const createPageName = (): string => {
+    let page;
+    if (pathName === "/") {
+      page = "HOME";
+    } else if (pathName === "/about") {
+      page = "ABOUT US";
+    } else {
+      let name = pathName.split("");
+      name.shift();
+      page = name.join("").toUpperCase();
+    }
+    return page;
+  };
+
+  let pageName = createPageName();
 
   return (
     <div className="flex w-full justify-between p-8 items-center md:justify-center md:gap-[80px] md:px-[97px] md:relative">
@@ -44,7 +61,7 @@ export default function Header(): JSX.Element {
           style={{ writingMode: "vertical-lr" }}
           className="text-[18px] float-right text-[#C8CCD8] leading-[24px] tracking-[18px]"
         >
-          HOME
+          {pageName}
         </h3>
       </div>
     </div>
