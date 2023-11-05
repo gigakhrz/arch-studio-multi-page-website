@@ -3,7 +3,10 @@ import arrowIcon from "../../../../public/assets/icons/Group 18.svg";
 
 const Paramour = (): JSX.Element => {
   return (
-    <div className="w-[375px] flex flex-col py-[113px] px-8 relative gap-[83px] bg-parramourMob-img bg-no-repeat	bg-cover	">
+    <div
+      className="w-[375px] flex flex-col py-[113px] px-8 relative gap-[83px] bg-parramourMob-img bg-no-repeat	bg-cover	md:w-[573px] md:h-[720px]
+     md:bg-parramourTab-img "
+    >
       <div className=" z-10 flex flex-col items-center w-full justify-center gap-[11px]">
         <h1 className="text-[48px] leading-[48px] tracking-[-1.2px] text-white self-center font-bold">
           Project Paramour
