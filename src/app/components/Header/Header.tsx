@@ -36,6 +36,17 @@ export default function Header(): JSX.Element {
       />
       <Burgermenu />
       <Navbar />
+
+      {/* The name of the page that appears from the tablet */}
+      <div className="flex flex-col gap-[48px] items-center">
+        <hr className="bg-[#C8CCD8] border-none w-[1px] h-[104px] " />
+        <h3
+          style={{ writingMode: "vertical-lr" }}
+          className="text-[18px] float-right text-[#C8CCD8] leading-[24px] tracking-[18px]"
+        >
+          HOME
+        </h3>
+      </div>
     </div>
   );
 }
