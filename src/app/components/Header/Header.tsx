@@ -21,7 +21,7 @@ export default function Header(): JSX.Element {
   const dispatch = useDispatch();
 
   return (
-    <div className="flex w-full justify-between p-8 items-center md:justify-center md:gap-[80px] md:px-[97px]">
+    <div className="flex w-full justify-between p-8 items-center md:justify-center md:gap-[80px] md:px-[97px] md:relative">
       <img
         className="w-[77px] h-[32px] cursor-pointer"
         src={logoImg.src}
@@ -38,7 +38,7 @@ export default function Header(): JSX.Element {
       <Navbar />
 
       {/* The name of the page that appears from the tablet */}
-      <div className="flex flex-col gap-[48px] items-center">
+      <div className="hidden flex-col gap-[48px] items-center md:flex md:fixed top-0 left-[38px]">
         <hr className="bg-[#C8CCD8] border-none w-[1px] h-[104px] " />
         <h3
           style={{ writingMode: "vertical-lr" }}
