@@ -16,7 +16,7 @@ const config: Config = {
         "projectMob-img": "url('/assets/portfolio/mobile/image-del-sol.jpg')",
         "projectTab-img": "url('/assets/portfolio/tablet/image-del-sol.jpg')",
         "towerMob-img": "url('/assets/portfolio/mobile/image-228b.jpg')",
-        "towerMTab-img": "url('/assets/portfolio/tablet/image-228b.jpg')",
+        "towerTab-img": "url('/assets/portfolio/tablet/image-228b.jpg')",
         "protorypeMob-img":
           "url('/assets/portfolio/mobile/image-prototype.jpg')",
         "protorypeTab-img":
