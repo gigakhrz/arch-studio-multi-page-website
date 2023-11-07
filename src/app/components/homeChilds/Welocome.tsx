@@ -1,7 +1,10 @@
 const Welcome = (): JSX.Element => {
   return (
-    <div className="flex flex-col gap-[69px] w-[375px] px-[32px]">
-      <hr className="bg-[#C8CCD8] border-none w-[65px] h-[1px] " />
+    <div className="flex flex-col gap-[69px] w-[375px] px-[32px] md:w-[572px]">
+      <hr className="bg-[#C8CCD8] border-none w-[65px] h-[1px] md:hidden" />
+      <h1 className="text-[120px] text-[#EEEFF4] leading-[200px] tracking-[-3px]">
+        Welcome
+      </h1>
       <div className=" flex flex-col items-center gap-[22px] ">
         <h1 className="text-[48px] leading-[52px] font-bold tracking=[-1.72px] text-[#1B1D23]">
           Welcome to Arch Studio
