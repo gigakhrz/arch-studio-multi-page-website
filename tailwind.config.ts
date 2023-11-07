@@ -14,9 +14,13 @@ const config: Config = {
         "parramourTab-img":
           "url('/assets/home/tablet/image-hero-paramour.jpg')",
         "projectMob-img": "url('/assets/portfolio/mobile/image-del-sol.jpg')",
+        "projectTab-img": "url('/assets/portfolio/tablet/image-del-sol.jpg')",
         "towerMob-img": "url('/assets/portfolio/mobile/image-228b.jpg')",
+        "towerMTab-img": "url('/assets/portfolio/tablet/image-228b.jpg')",
         "protorypeMob-img":
           "url('/assets/portfolio/mobile/image-prototype.jpg')",
+        "protorypeTab-img":
+          "url('/assets/portfolio/tablet/image-prototype.jpg')",
         "aboutMob-img": "url('/assets/home/mobile/image-small-team.jpg')",
         aboutMob: "url('/assets/about/mobile/image-hero.jpg')",
         aboutTab: "url('/assets/about/tablet/image-hero.jpg')",
