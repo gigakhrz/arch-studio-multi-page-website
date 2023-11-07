@@ -5,8 +5,11 @@ const Welcome = (): JSX.Element => {
       <h1 className="text-[120px] text-[#EEEFF4] leading-[200px] tracking-[-3px]">
         Welcome
       </h1>
-      <div className=" flex flex-col items-center gap-[22px] ">
-        <h1 className="text-[48px] leading-[52px] font-bold tracking=[-1.72px] text-[#1B1D23]">
+      <div className=" flex flex-col items-center gap-[22px] md:items-start md:ga[43px]">
+        <h1
+          className="text-[48px] leading-[52px] font-bold tracking=[-1.72px] text-[#1B1D23] md:text-[72px]  
+        md:leading-[64px] md:tracking-[-2px] md:w-[446px]"
+        >
           Welcome to Arch Studio
         </h1>
         <div className="flex flex-col items-center gap-[30px] mb-[40px]">
