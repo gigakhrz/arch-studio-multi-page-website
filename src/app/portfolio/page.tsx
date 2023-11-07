@@ -32,7 +32,7 @@ export default function Portfolio() {
   }
 
   return (
-    <div className="mt-[56px] mb-[132px] flex flex-col items-center gap-[24px] w-full md:w-[573px]">
+    <div className="mt-[56px] mb-[132px] flex flex-col items-center gap-[24px] w-full md:w-[573px] self-center ">
       {allProject.allProject.map((project, index) => {
         const imageUrl =
           deviceType === "mobile"

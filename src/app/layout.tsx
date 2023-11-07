@@ -20,9 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Providers>
-        <body
-          className={`${spartan.className} md:flex md:items-center md:flex-col`}
-        >
+        <body className={`${spartan.className} md:flex md:flex-col`}>
           <Header />
           {children}
           <Footer />
