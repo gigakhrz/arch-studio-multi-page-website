@@ -2,8 +2,12 @@ import Link from "next/link";
 
 const FeaturesChilds = (): JSX.Element => {
   return (
-    <div className="flex flex-col w-full gap-[24px]">
-      <div className="w-[311px] h-[240px] flex flex-col items-start justify-end px-[24px] py-[23px] relative   bg-projectMob-img bg-no-repeat	bg-cover">
+    <div className="flex flex-col w-full gap-[24px] ">
+      <div
+        className="w-[311px] h-[240px] flex flex-col items-start justify-end px-[24px] py-[23px] relative   bg-projectMob-img bg-no-repeat	bg-cover 
+        md:w-full md:pl-[40px] md:pb-[40px]
+      "
+      >
         <h1 className=" z-10 text-[32px] leading-[40px]  text-white self-start font-bold">
           Project Del Sol
         </h1>
@@ -20,7 +24,10 @@ const FeaturesChilds = (): JSX.Element => {
 
       {/* --------------- */}
 
-      <div className="w-[311px] h-[240px] flex flex-col items-start justify-end px-[24px] py-[23px] relative   bg-towerMob-img bg-no-repeat	bg-cover">
+      <div
+        className="w-[311px] h-[240px] flex flex-col items-start justify-end px-[24px] py-[23px] relative   bg-towerMob-img bg-no-repeat	bg-cover
+      md:w-full md:pl-[40px] md:pb-[40px]"
+      >
         <h1 className=" z-10 text-[32px] leading-[40px]  text-white self-start font-bold">
           228B Tower
         </h1>
@@ -36,7 +43,10 @@ const FeaturesChilds = (): JSX.Element => {
 
       {/* --------------- */}
 
-      <div className="w-[311px] h-[240px] flex flex-col items-start justify-end px-[24px] py-[23px] relative   bg-protorypeMob-img bg-no-repeat	bg-cover">
+      <div
+        className="w-[311px] h-[240px] flex flex-col items-start justify-end px-[24px] py-[23px] relative   bg-protorypeMob-img bg-no-repeat	bg-cover 
+      md:w-full md:pl-[40px] md:pb-[40px]"
+      >
         <h1 className=" z-10 text-[32px] leading-[40px]  text-white self-start font-bold">
           Le Prototype
         </h1>
