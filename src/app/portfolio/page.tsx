@@ -32,7 +32,7 @@ export default function Portfolio() {
   }
 
   return (
-    <div className="mt-[56px] mb-[132px] flex flex-col items-center gap-[24px] w-full ">
+    <div className="mt-[56px] mb-[132px] flex flex-col items-center gap-[24px] w-full md:w-[573px]">
       {allProject.allProject.map((project, index) => {
         const imageUrl =
           deviceType === "mobile"
@@ -44,7 +44,7 @@ export default function Portfolio() {
         return (
           <div
             key={index}
-            className="w-[311px] h-[240px] flex flex-col items-start justify-end px-[24px] py-[23px] relative bg-no-repeat bg-cover"
+            className="w-[311px] h-[240px] flex flex-col items-start justify-end px-[24px] py-[23px] relative bg-no-repeat bg-cover md:w-full md:pl-[40px] md:pb-[40px]"
             style={{ backgroundImage: `url(${imageUrl})` }} // Set background image//
           >
             <h1 className="z-10 text-[32px] leading-[40px] text-white self-start font-bold">
