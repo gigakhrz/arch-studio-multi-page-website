@@ -1,8 +1,8 @@
 const Welcome = (): JSX.Element => {
   return (
-    <div className="flex flex-col gap-[69px] w-[375px] px-[32px] md:w-[572px]">
+    <div className="flex flex-col gap-[69px] w-[375px] px-[32px] md:w-[572px] md:gap-0">
       <hr className="bg-[#C8CCD8] border-none w-[65px] h-[1px] md:hidden" />
-      <h1 className="text-[120px] text-[#EEEFF4] leading-[200px] tracking-[-3px]">
+      <h1 className="text-[120px] text-[#EEEFF4] leading-[200px] tracking-[-3px] hidden md:block mb-[-50px]">
         Welcome
       </h1>
       <div className=" flex flex-col items-center gap-[22px] md:items-start md:ga[43px]">
