@@ -11,7 +11,10 @@ const Team = (): JSX.Element => {
       md:pl-[59px] md:pr-0 md:flex-col-reverse"
       >
         <div className="flex flex-col gap-[21px] w-full">
-          <h1 className="text-[48px] leading-[52px] font-bold tracking=[-1.2px] text-[#1B1D23]">
+          <h1
+            className="text-[48px] leading-[52px] font-bold tracking=[-1.2px] text-[#1B1D23]  md:text-[72px]  
+        md:leading-[64px] md:tracking-[-2px] md:w-[446px] md:mb-[10px]"
+          >
             Your team of professionals
           </h1>
           <p className="text-[18px] leading-[24px] font-medium  text-[#60636D]">
