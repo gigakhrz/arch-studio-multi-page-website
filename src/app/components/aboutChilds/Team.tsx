@@ -1,5 +1,3 @@
-import aboutImg from "../../../../public/assets/about/mobile/image-hero.jpg";
-
 const Team = (): JSX.Element => {
   return (
     <div className="flex w-[375px] flex-col items-start justify-center gap-[20px] md:w-[573px]	md:relative ">
