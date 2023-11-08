@@ -1,7 +1,7 @@
 const Team = (): JSX.Element => {
   return (
     <div className="flex w-[375px] flex-col items-start justify-center gap-[20px] md:w-[573px]	md:relative ">
-      <div className="relative w-full h-[240px] bg-aboutMob bg-no-repeat bg-cover flex items-end justify-start md:w-[573px] md:h-[760px]">
+      <div className="relative w-full h-[240px] bg-aboutMob bg-no-repeat bg-cover flex items-end justify-start md:w-[573px] md:h-[760px] md:bg-aboutTab">
         <div className="bg-white w-[343px] h-[45px] z-10 md:hidden"></div>
         <div className="bg-black absolute w-full h-full left-0 top-0 opacity-50"></div>
       </div>
@@ -23,7 +23,10 @@ const Team = (): JSX.Element => {
         </div>
 
         <hr className="bg-[#C8CCD8] border-none w-[65px] h-[1px] md:mt-[85px]" />
-        <h1 className="text-[120px] text-[#EEEFF4] leading-[200px] tracking-[-3px] hidden md:block mb-[-50px] md:absolute md:right-[204px]">
+        <h1
+          className="text-[120px] text-[#EEEFF4] leading-[200px] tracking-[-3px] hidden md:block mb-[-50px] md:absolute 
+        md:right-[204px] top-[-87px] left-[125px]"
+        >
           About
         </h1>
       </div>
