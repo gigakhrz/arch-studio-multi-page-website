@@ -38,7 +38,7 @@ export default function Header(): JSX.Element {
   let pageName = createPageName();
 
   return (
-    <div className="flex w-full justify-between p-8 items-center md:justify-center md:gap-[80px] md:px-[97px] ">
+    <div className="flex w-full justify-between p-8 items-center md:justify-center md:gap-[80px] md:px-[97px] md:py-[56px] ">
       <img
         className="w-[77px] h-[32px] cursor-pointer"
         src={logoImg.src}
