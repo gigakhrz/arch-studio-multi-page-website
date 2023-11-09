@@ -25,6 +25,13 @@ const TellUs = (): JSX.Element => {
         </div>
 
         <hr className="bg-[#C8CCD8] border-none w-[65px] h-[1px] md:mt-[85px]" />
+
+        <h1
+          className="text-[120px] text-[#EEEFF4] leading-[200px] tracking-[-3px] hidden md:block mb-[-50px] md:absolute 
+        md:right-[204px] top-[-87px] left-[125px]"
+        >
+          Contact
+        </h1>
       </div>
     </div>
   );
