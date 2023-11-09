@@ -2,11 +2,11 @@ import ArrowSvg from "../../../../public/assets/icons/icon-arrow.svg";
 
 export default function ContactDetails() {
   return (
-    <div className="w-[375px] px-[32px] flex flex-col gap-[40px] items-start">
+    <div className="w-[375px] px-[32px] flex flex-col gap-[40px] items-start md:w-[574px] md:p-0 md:gap-[42px]">
       <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[ -1.714px]">
         Contact Details
       </h1>
-      <div className="flex flex-col gap-[43px]">
+      <div className="flex flex-col gap-[43px] md:flex-row md:items-center md:justify-between md:w-full">
         <div className="flex flex-col gap-[14px]">
           <p className="text-[18px] text-[#60636D] fontbold leading-[35px]">
             Main Office
@@ -26,7 +26,7 @@ export default function ContactDetails() {
         <a
           target="_blank"
           href="https://www.google.com/maps/d/u/0/edit?mid=1WHvigrNtoqLTsDEahSfbd-DWvInBbjE&usp=sharing"
-          className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]"
+          className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] md:self-end md:mb-[13px]"
         >
           View on Map <img src={ArrowSvg.src} alt="arrow svg" />
         </a>
