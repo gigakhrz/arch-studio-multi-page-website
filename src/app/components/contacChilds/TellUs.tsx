@@ -11,7 +11,10 @@ const TellUs = (): JSX.Element => {
       md:pl-[59px] md:pr-0 md:flex-col-reverse"
       >
         <div className="flex flex-col gap-[21px] w-full">
-          <h1 className="text-[48px] leading-[52px] font-bold tracking=[-1.2px] text-[#1B1D23]">
+          <h1
+            className="text-[48px] leading-[52px] font-bold tracking=[-1.2px] text-[#1B1D23]  md:text-[72px]  
+        md:leading-[64px] md:tracking-[-2px] md:w-[446px] md:mb-[10px]"
+          >
             Tell us about your project
           </h1>
           <p className="text-[18px] leading-[24px] font-medium  text-[#60636D]">
@@ -21,7 +24,7 @@ const TellUs = (): JSX.Element => {
           </p>
         </div>
 
-        <hr className="bg-[#C8CCD8] border-none w-[65px] h-[1px] " />
+        <hr className="bg-[#C8CCD8] border-none w-[65px] h-[1px] md:mt-[85px]" />
       </div>
     </div>
   );
