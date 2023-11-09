@@ -4,7 +4,10 @@ export default function ContactDetails() {
   return (
     <div className="w-[375px] px-[32px] flex flex-col gap-[40px] items-start md:w-[574px] md:p-0 md:gap-[42px]  md:mb-[26px]">
       <hr className="hidden bg-[#C8CCD8] border-none w-[65px] h-[1px]  md:block" />
-      <h1 className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[ -1.714px]">
+      <h1
+        className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[ -1.714px]  md:text-[72px]  
+        md:leading-[64px] md:tracking-[-2px] md:w-[446px]"
+      >
         Contact Details
       </h1>
       <div className="flex flex-col gap-[43px] md:flex-row md:items-center md:justify-between md:w-full">
