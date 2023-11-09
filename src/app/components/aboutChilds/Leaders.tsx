@@ -35,15 +35,21 @@ const Leadrs = (): JSX.Element => {
     ],
   };
   return (
-    <div className="flex flex-col items-start gap-[55px] w-[375px] px-[32px] ">
-      <h1 className="text-[48px] leading-[52px] font-bold tracking=[-1.72px] text-[#1B1D23]">
+    <div className="flex flex-col items-start gap-[55px] w-[375px] px-[32px] md:w-[573px] md:p-0 md:gap-[49px] ">
+      <h1
+        className="text-[48px] leading-[52px] font-bold tracking=[-1.72px] text-[#1B1D23] md:text-[72px]  
+        md:leading-[64px] md:tracking-[-2px] "
+      >
         The <br /> Leaders
       </h1>
 
-      <div className="flex flex-col items-start gap-[79px]">
+      <div className="flex flex-col items-start gap-[79px]  md:flex-row md:flex-wrap md:gap-0 md:gap-x-[11px] md:gap-y-[103px]">
         {teamLeaders.leaders.map((leader, index) => {
           return (
-            <div key={index} className="flex flex-col items-start gap-[15px]">
+            <div
+              key={index}
+              className="flex flex-col items-start gap-[15px] md:w-[280px]"
+            >
               <img
                 src={leader.img}
                 alt="leader image"
