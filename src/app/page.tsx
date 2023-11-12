@@ -6,7 +6,7 @@ import Welcome from "./components/homeChilds/Welocome";
 
 export default function Home() {
   return (
-    <div className="flex gap-[72px] items-center flex-col mb-[132px]">
+    <div className="flex gap-[72px] items-center flex-col mb-[132px] lg:gap-[195px]">
       <Paramour />
       <DesktopMainProjects />
       <Welcome />
