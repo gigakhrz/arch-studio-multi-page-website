@@ -1,34 +1,37 @@
 import Link from "next/link";
 import arrowIcon from "../../../../public/assets/icons/Group 18.svg";
+import Image from "next/image";
 
 const DesktopMainProjects = (): JSX.Element => {
   return (
-    <div
-      className="w-[375px] flex flex-col py-[113px] px-8 relative gap-[83px] bg-parramourMob-img bg-no-repeat	bg-cover	md:w-[573px] md:h-[720px]
-     md:bg-parramourTab-img md:px-[58px]  md:justify-center md:gap-[41px]"
-    >
-      <div className=" z-10 flex flex-col items-center w-full justify-center gap-[11px]">
-        <h1 className="text-[48px] leading-[48px] tracking-[-1.2px] text-white self-center font-bold md:text-[96px] md:leading-[80px] md:tracking-[-2px] ">
-          Project Paramour
+    <div className="w-full flex flex-col gap-[22px] px-[32px] items-start mb-[113px] relative md:gap-[43px] md:w-[572px] md:px-0 md:mb-[233px] lg:flex-row lg:w-[1110px] lg:items-end lg:justify-center lg:gap-[125px]">
+      <h3 className="hidden md:flex absolute top-[-150px] w-[581px] text-[120px] font-bold text-[#EEEFF4] leading-[200px] tracking-[-3px] lg:text-[250px] lg:left-[-150px] lg:top-[-90px]">
+        Welcome
+      </h3>
+      <div className="flex flex-col gap-[22px] md:gap-[43px]">
+        <h1 className="text-[48px] font-bold text-[#1B1D23] leading-[52px] tracking-[-1.714px] md:text-[72px] md:leading-[64px] md:tracking-[-2px] md:w-[446px]">
+          Welcome to Arch Studio
         </h1>
-        <p className="text-[18px] leading-[24px] font-medium text-white ">
-          Project made for an art museum near Southwest London. Project Paramour
-          is a statement of bold, modern architecture.
-        </p>
+        <div className="flex flex-col gap-[22px] md:w-[572px] lg:w-[445px]">
+          <p className="text-[18px] font-medium text-[#60636D] leading-[24px]">
+            We have a unique network and skillset to help bring your projects to
+            life. Our small team of highly skilled individuals combined with our
+            large network put us in a strong position to deliver exceptional
+            results.
+          </p>
+          <p className="text-[18px] font-medium text-[#60636D] leading-[24px]">
+            Over the past 10 years, we have worked on all kinds of projects.
+            From stations to high-rise buildings, we create spaces that inspire
+            and delight.
+          </p>
+          <p className="text-[18px] font-medium text-[#60636D] leading-[24px]">
+            We work closely with our clients so that we understand the
+            intricacies of each project. This allows us to work in harmony the
+            surrounding area to create truly stunning projects that will stand
+            the test of time.
+          </p>
+        </div>
       </div>
-
-      <Link
-        className="flex items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px]"
-        href="/portfolio"
-      >
-        <h4 className="text-[18px] leading-[25px] font-bolds text-white ">
-          See Our Portfolio
-        </h4>
-        <img src={arrowIcon.src} alt="arrow img" />
-      </Link>
-
-      {/* for overlay */}
-      <div className="w-full h-full bg-black opacity-50 absolute top-0 left-0"></div>
     </div>
   );
 };
