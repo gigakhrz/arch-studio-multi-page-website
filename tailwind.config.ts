@@ -13,14 +13,20 @@ const config: Config = {
           "url('/assets/home/mobile/image-hero-paramour.jpg')",
         "parramourTab-img":
           "url('/assets/home/tablet/image-hero-paramour.jpg')",
+        "parramourDes-img":
+          "url('/assets/home/desktop/image-hero-paramour.jpg')",
         "projectMob-img": "url('/assets/portfolio/mobile/image-del-sol.jpg')",
         "projectTab-img": "url('/assets/portfolio/tablet/image-del-sol.jpg')",
+        "projectDes-img": "url('/assets/portfolio/desktop/image-del-sol.jpg')",
         "towerMob-img": "url('/assets/portfolio/mobile/image-228b.jpg')",
         "towerTab-img": "url('/assets/portfolio/tablet/image-228b.jpg')",
+        "towerDes-img": "url('/assets/portfolio/desktop/image-228b.jpg')",
         "protorypeMob-img":
           "url('/assets/portfolio/mobile/image-prototype.jpg')",
         "protorypeTab-img":
           "url('/assets/portfolio/tablet/image-prototype.jpg')",
+        "protorypeDes-img":
+          "url('/assets/portfolio/desktop/image-prototype.jpg')",
         "aboutMob-img": "url('/assets/home/mobile/image-small-team.jpg')",
         "aboutTab-img": "url('/assets/home/tablet/image-small-team.jpg')",
         "aboutDes-img": "url('/assets/home/desktop/image-small-team.jpg')",
