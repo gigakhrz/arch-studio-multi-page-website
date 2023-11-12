@@ -22,6 +22,8 @@ const config: Config = {
         "protorypeTab-img":
           "url('/assets/portfolio/tablet/image-prototype.jpg')",
         "aboutMob-img": "url('/assets/home/mobile/image-small-team.jpg')",
+        "aboutTab-img": "url('/assets/home/tablet/image-small-team.jpg')",
+        "aboutDes-img": "url('/assets/home/desktop/image-small-team.jpg')",
         aboutMob: "url('/assets/about/mobile/image-hero.jpg')",
         aboutTab: "url('/assets/about/tablet/image-hero.jpg')",
         aboutDes: "url('/assets/about/desktop/image-hero.jpg')",
