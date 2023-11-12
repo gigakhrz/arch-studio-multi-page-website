@@ -27,7 +27,7 @@ const DesktopMainProjects = () => {
   }, [itemNum]);
   return (
     <div
-      className="hidden lg:flex w-full bg-no-repeat bg-cover  justify-center items-start flex-col relative md:h-[720px] md:gap-[41px] md:mb-[248px] lg:w-[860px] lg:px-[190px] xl:w-[1110px]"
+      className="hidden lg:flex w-full bg-no-repeat bg-cover  justify-center items-start flex-col relative md:h-[720px] md:gap-[41px]  lg:w-[860px] lg:px-[190px] xl:w-[1110px]"
       style={{ backgroundImage: `url(${project[0].image})` }}
     >
       <div className="w-full flex flex-col  items-start md:gap-[10px]">
