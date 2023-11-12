@@ -38,7 +38,7 @@ export default function Header(): JSX.Element {
   let pageName = createPageName();
 
   return (
-    <div className="flex w-full justify-between p-8 items-center md:justify-center md:gap-[80px] md:px-[97px] md:py-[56px] ">
+    <div className="flex w-full justify-between p-8 items-center md:justify-center md:gap-[80px] md:px-[97px] md:py-[56px] xl:w-[1110px] xl:px-0 xl:self-center">
       <img
         className="w-[77px] h-[32px] cursor-pointer"
         src={logoImg.src}
@@ -55,7 +55,7 @@ export default function Header(): JSX.Element {
       <Navbar />
 
       {/* The name of the page that appears from the tablet */}
-      <div className="hidden flex-col gap-[48px] items-center md:flex md:fixed top-0 left-[38px]">
+      <div className="hidden flex-col gap-[48px] items-center md:flex md:fixed top-0 left-[38px] xl:left-[70px]">
         <hr className="bg-[#C8CCD8] border-none w-[1px] h-[104px] " />
         <h3
           style={{ writingMode: "vertical-lr" }}
