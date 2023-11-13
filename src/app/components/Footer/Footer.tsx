@@ -2,6 +2,7 @@ import Link from "next/link";
 import logoImg from "../../../../public/assets/icons/Logo.svg";
 import arrowIcon from "../../../../public/assets/icons/Group 18.svg";
 const Footer = (): JSX.Element => {
+  // //////////////////// bevri ram aris shesacvleli ~!!!!!!!!!!!!!!!!!!
   return (
     <div
       className="flex flex-col items-center justify-center gap-[32px] bg-[#EEEFF4] md:flex-row md:h-[120px] md:justify-start md:w-[612px] 
