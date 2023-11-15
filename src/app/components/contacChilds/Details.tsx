@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ArrowSvg from "../../../../public/assets/icons/icon-arrow.svg";
 
 export default function ContactDetails() {
@@ -32,7 +33,7 @@ export default function ContactDetails() {
           href="https://www.google.com/maps/d/u/0/edit?mid=1WHvigrNtoqLTsDEahSfbd-DWvInBbjE&usp=sharing"
           className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] md:self-end md:mb-[13px]"
         >
-          View on Map <img src={ArrowSvg.src} alt="arrow svg" />
+          View on Map <Image src={ArrowSvg} alt="arrow svg" />
         </a>
       </div>
 
@@ -58,7 +59,7 @@ export default function ContactDetails() {
           href="https://www.google.com/maps/d/u/0/edit?mid=1WHvigrNtoqLTsDEahSfbd-DWvInBbjE&usp=sharing"
           className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]  md:self-end md:mb-[13px]"
         >
-          View on Map <img src={ArrowSvg.src} alt="arrow svg" />
+          View on Map <Image src={ArrowSvg} alt="arrow svg" />
         </a>
       </div>
     </div>
