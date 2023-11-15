@@ -8,7 +8,7 @@ const Footer = (): JSX.Element => {
   return (
     <div
       className="flex flex-col items-center justify-center gap-[32px] bg-[#EEEFF4] md:flex-row md:h-[120px] md:justify-start md:w-[612px] 
-    md:gap-[40px] xl:h-[200px] lg:w-[985px] xl:self-center lg:relative "
+    md:gap-[40px] xl:h-[200px] lg:w-[985px] xl:self-center lg:relative xl:w-[984px] xl:mr-[120px] lg:gap[-61px]"
     >
       <Image
         src={logoImg}
@@ -16,7 +16,7 @@ const Footer = (): JSX.Element => {
         className="mt-[-60px] md:m-0 lg:w-[200px] h-[200px]"
       />
       <Link
-        className="text-[#7D828F] text-[18px] font-bold leading-[25px] md:mr-[21px] "
+        className="text-[#7D828F] text-[18px] font-bold leading-[25px] md:mr-[21px] lg:ml-[24px]"
         href="/portfolio"
       >
         Portfolio
