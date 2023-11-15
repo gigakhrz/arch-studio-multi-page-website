@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const Leadrs = (): JSX.Element => {
   interface Leaders {
     leaders: {
@@ -52,7 +50,7 @@ const Leadrs = (): JSX.Element => {
               key={index}
               className="flex flex-col items-start gap-[15px] md:w-[280px]"
             >
-              <Image
+              <img
                 src={leader.img}
                 alt="leader image"
                 className="w-[311px] h-[284px]"
