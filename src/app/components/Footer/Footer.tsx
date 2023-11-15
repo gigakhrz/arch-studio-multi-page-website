@@ -8,7 +8,7 @@ const Footer = (): JSX.Element => {
   return (
     <div
       className="flex flex-col items-center justify-center gap-[32px] bg-[#EEEFF4] md:flex-row md:h-[120px] md:justify-start md:w-[612px] 
-    md:gap-[40px] xl:h-[200px] lg:w-[985px] xl:self-center"
+    md:gap-[40px] xl:h-[200px] lg:w-[985px] xl:self-center lg:relative "
     >
       <Image
         src={logoImg}
@@ -37,11 +37,11 @@ const Footer = (): JSX.Element => {
       </Link>
 
       <Link
-        className="flex items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px] min-w-[252px] md:mr-[-300px] lg:mr-[-500px]"
+        className="flex items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px] min-w-[252px] md:mr-[-300px] lg:absolute lg:right-[180px]"
         href="/portfolio"
       >
         <h4 className="text-[18px] leading-[25px] font-bolds text-white ">
-          See all
+          See our portfolio
         </h4>
         <Image src={arrowIcon} alt="arrow img" />
       </Link>
