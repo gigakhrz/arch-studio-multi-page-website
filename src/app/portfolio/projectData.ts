@@ -66,6 +66,14 @@ export const allProject: Projects = {
     },
 
     {
+      name: "Netcry Tower",
+      date: "August 2012",
+      image: "/assets/portfolio/mobile/image-netcry.jpg",
+      image1: "/assets/portfolio/tablet/image-netcry.jpg",
+      image2: "/assets/portfolio/desktop/image-netcry.jpg",
+    },
+
+    {
       name: "Hypers",
       date: "January 2012",
       image: "/assets/portfolio/mobile/image-hypers.jpg",
