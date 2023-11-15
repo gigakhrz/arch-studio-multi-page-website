@@ -1,5 +1,6 @@
 import Link from "next/link";
 import arrowIcon from "../../../../public/assets/icons/Group 18.svg";
+import Image from "next/image";
 
 const Paramour = (): JSX.Element => {
   return (
@@ -24,7 +25,7 @@ const Paramour = (): JSX.Element => {
         <h4 className="text-[18px] leading-[25px] font-bolds text-white ">
           See Our Portfolio
         </h4>
-        <img src={arrowIcon.src} alt="arrow img" />
+        <Image src={arrowIcon} alt="arrow img" />
       </Link>
 
       {/* for overlay */}

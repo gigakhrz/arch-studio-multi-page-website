@@ -1,6 +1,7 @@
 import Link from "next/link";
 import FeaturesChilds from "./FeaturesChilds";
 import arrowIcon from "../../../../public/assets/icons/Group 18.svg";
+import Image from "next/image";
 
 const Feature = (): JSX.Element => {
   return (
@@ -20,7 +21,7 @@ const Feature = (): JSX.Element => {
           <h4 className="text-[18px] leading-[25px] font-bolds text-white ">
             See all
           </h4>
-          <img src={arrowIcon.src} alt="arrow img" />
+          <Image src={arrowIcon} alt="arrow img" />
         </Link>
       </div>
       <FeaturesChilds />
@@ -31,7 +32,7 @@ const Feature = (): JSX.Element => {
         <h4 className="text-[18px] leading-[25px] font-bolds text-white ">
           See all
         </h4>
-        <img src={arrowIcon.src} alt="arrow img" />
+        <Image src={arrowIcon} alt="arrow img" />
       </Link>
     </div>
   );
