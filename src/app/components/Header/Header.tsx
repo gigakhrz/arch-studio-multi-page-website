@@ -7,6 +7,7 @@ import { setBurger } from "@/features/burgermenuSlice";
 import { useDispatch } from "react-redux";
 import { usePathname } from "next/navigation";
 import Navbar from "./Navbar";
+import Image from "next/image";
 
 export default function Header(): JSX.Element {
   const router = useRouter();
@@ -39,16 +40,16 @@ export default function Header(): JSX.Element {
 
   return (
     <div className="flex w-full justify-between p-8 items-center md:justify-center md:gap-[80px] md:px-[97px] md:py-[56px] xl:w-[1110px] xl:px-0 xl:self-center">
-      <img
+      <Image
         className="w-[77px] h-[32px] cursor-pointer"
-        src={logoImg.src}
+        src={logoImg}
         alt="logoImg"
         onClick={handleGoHomePage}
       />
-      <img
+      <Image
         onClick={() => dispatch(setBurger())}
         className="w-[24px] h-[17px] cursor-pointer md:hidden"
-        src={burgerImg.src}
+        src={burgerImg}
         alt="burger menu"
       />
       <Burgermenu />
