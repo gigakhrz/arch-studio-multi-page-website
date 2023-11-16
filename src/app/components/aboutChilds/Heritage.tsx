@@ -1,8 +1,11 @@
+import Image from "next/image";
+import heritageImg from "../../../../public/assets/about/desktop/image-heritage.jpg";
+
 const Heritage = (): JSX.Element => {
   return (
-    <div className="flex w-[375px] items-center px-[32px] mb-[43px] md:w-[574px] md:p-0">
-      <div className=" flex flex-col items-start gap-[22px] md:gap-[50px]">
-        <hr className="hidden bg-[#C8CCD8] border-none w-[65px] h-[1px] md:mt-[85px] md:block" />
+    <div className="flex w-[375px] items-center px-[32px] mb-[43px] md:w-[574px] md:p-0  lg:w-[860px] xl:w-[1110px] xl:justify-end lg:gap-[20px] xl:gap-[120px]">
+      <div className=" flex flex-col items-start gap-[22px] md:gap-[50px] lg:w-[445px]">
+        <hr className="hidden bg-[#C8CCD8] border-none w-[65px] h-[1px] md:mt-[85px] md:block lg:mt-[20px]" />
         <h1
           className="text-[48px] leading-[52px] font-bold tracking=[-1.72px] text-[#1B1D23]  md:text-[72px]  
         md:leading-[64px] md:tracking-[-2px] md:w-[446px] md:mb-[10px]"
@@ -29,7 +32,11 @@ const Heritage = (): JSX.Element => {
       </div>
 
       {/* ტაბლეტზე უნდა ჩაისვას იმიჯი ან შეიცვალოს იმიჯი ტეგით */}
-      <div></div>
+      <Image
+        className="hidden lg:block lg:min-w-[340px] lg:min-h-[568px]"
+        src={heritageImg}
+        alt="the geritage image"
+      ></Image>
     </div>
   );
 };
