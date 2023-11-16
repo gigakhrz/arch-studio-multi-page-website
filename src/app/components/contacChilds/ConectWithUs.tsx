@@ -3,7 +3,7 @@ import arrowSvg from "../../../../public/assets/icons/Group 18.svg";
 
 export default function ConnectWith() {
   return (
-    <div className="w-[375px] px-[32px] gap-[42px] flex flex-col md:w-[573px] md:p-0">
+    <div className="w-[375px] px-[32px] gap-[42px] flex flex-col md:w-[573px] md:p-0 lg:flex-row lg:w-[860px] xl:w-[1110px]">
       <h2
         className="text-[48px] text-[#1B1D23] w-[200px] font-bold leading-[52px] tracking-[-1.714px]  md:text-[72px]  
         md:leading-[64px] md:tracking-[-2px] md:w-[473px]"
