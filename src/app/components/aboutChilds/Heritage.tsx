@@ -31,7 +31,7 @@ const Heritage = (): JSX.Element => {
         </div>
       </div>
 
-      {/* ტაბლეტზე უნდა ჩაისვას იმიჯი ან შეიცვალოს იმიჯი ტეგით */}
+      {/* only on destkop */}
       <Image
         className="hidden lg:block lg:min-w-[340px] lg:min-h-[568px]"
         src={heritageImg}
