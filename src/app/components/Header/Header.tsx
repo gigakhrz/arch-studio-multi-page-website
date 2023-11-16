@@ -56,7 +56,7 @@ export default function Header(): JSX.Element {
       <Navbar />
 
       {/* The name of the page that appears from the tablet */}
-      <div className="hidden flex-col gap-[48px] items-center md:flex md:fixed top-0 left-[38px] xl:left-[70px]">
+      <div className="hidden flex-col gap-[48px] items-center md:flex md:fixed top-0 left-[38px] xl:left-[70px] z-30">
         <hr className="bg-[#C8CCD8] border-none w-[1px] h-[104px] " />
         <h3
           style={{ writingMode: "vertical-lr" }}
