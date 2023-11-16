@@ -35,7 +35,10 @@ const Leadrs = (): JSX.Element => {
     ],
   };
   return (
-    <div className="flex flex-col items-start gap-[55px] w-[375px] px-[32px] md:w-[573px] md:p-0 md:gap-[49px] ">
+    <div
+      className="flex flex-col items-start gap-[55px] w-[375px] px-[32px] md:w-[573px] md:p-0 md:gap-[49px] lg:flex-row lg:w-[860px] xl:w-[1110px] 
+    xl:gap-[140px]"
+    >
       <h1
         className="text-[48px] leading-[52px] font-bold tracking=[-1.72px] text-[#1B1D23] md:text-[72px]  
         md:leading-[64px] md:tracking-[-2px] "
@@ -43,17 +46,20 @@ const Leadrs = (): JSX.Element => {
         The <br /> Leaders
       </h1>
 
-      <div className="flex flex-col items-start gap-[79px]  md:flex-row md:flex-wrap md:gap-0 md:gap-x-[11px] md:gap-y-[103px]">
+      <div
+        className="flex flex-col items-start gap-[79px]  md:flex-row md:flex-wrap md:gap-0 md:gap-x-[11px] md:gap-y-[103px]
+       lg:gap-x-[15px] xl:gap-x-[30px] xl:gap-y-[150px]"
+      >
         {teamLeaders.leaders.map((leader, index) => {
           return (
             <div
               key={index}
-              className="flex flex-col items-start gap-[15px] md:w-[280px]"
+              className="flex flex-col items-start gap-[15px] md:w-[280px] xl:w-[350px] xl:h-[320px]"
             >
               <img
                 src={leader.img}
                 alt="leader image"
-                className="w-[311px] h-[284px]"
+                className="w-[311px] h-[284px] xl:w-full xl:h-[320px]"
               />
               <div className="flex flex-col items-start">
                 <h1 className="text-[32px] leading-[40px] font-bold text-[#1B1D23]">
