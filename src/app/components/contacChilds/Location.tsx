@@ -23,7 +23,7 @@ export default function LocationMap(): JSX.Element {
   });
 
   return (
-    <div className="w-full md:h-[572px] md:w-[573px] h-[367px]">
+    <div className="w-full md:h-[572px] md:w-[573px] h-[367px] lg:h-[560px] lg:w-[860px] xl:w-[1110px]">
       <MapContainer
         center={[34.756846, -90.068075]}
         zoom={5}
