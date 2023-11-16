@@ -17,7 +17,7 @@ const About = (): JSX.Element => {
       </h1>
 
       <Link
-        className="flex items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px] md:w-[187px]"
+        className="flex items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px] md:w-[187px]  lg:hover:bg-[#60636D]"
         href="/about"
       >
         <h4 className="text-[18px] leading-[25px] font-bolds text-white ">

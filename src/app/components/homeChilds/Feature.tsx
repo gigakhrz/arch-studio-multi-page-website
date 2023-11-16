@@ -15,7 +15,7 @@ const Feature = (): JSX.Element => {
         </h1>
 
         <Link
-          className="hidden items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px] md:flex"
+          className="hidden items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px] md:flex  lg:hover:bg-[#60636D]"
           href="/portfolio"
         >
           <h4 className="text-[18px] leading-[25px] font-bolds text-white ">
@@ -26,7 +26,7 @@ const Feature = (): JSX.Element => {
       </div>
       <FeaturesChilds />
       <Link
-        className="flex items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px] md:hidden"
+        className="flex items-center justify-center gap-[24px] bg-black z-10 w-[252px] h-[72px] md:hidden "
         href="/portfolio"
       >
         <h4 className="text-[18px] leading-[25px] font-bolds text-white ">
