@@ -3,15 +3,18 @@ import ArrowSvg from "../../../../public/assets/icons/icon-arrow.svg";
 
 export default function ContactDetails() {
   return (
-    <div className="w-[375px] px-[32px] flex flex-col gap-[40px] items-start md:w-[574px] md:p-0 md:gap-[42px]  md:mb-[26px]">
-      <hr className="hidden bg-[#C8CCD8] border-none w-[65px] h-[1px]  md:block" />
+    <div
+      className="w-[375px] px-[32px] flex flex-col gap-[40px] items-start md:w-[574px] md:p-0 md:gap-[42px]  md:mb-[26px] lg:w-[860px] 
+    lg:flex-row lg:gap-0 xl:w-[1110px] xl:justify-between"
+    >
+      <hr className="hidden bg-[#C8CCD8] border-none w-[65px] h-[1px]  md:block lg:hidden" />
       <h1
         className="text-[48px] text-[#1B1D23] font-bold leading-[52px] tracking-[ -1.714px]  md:text-[72px]  
-        md:leading-[64px] md:tracking-[-2px] md:w-[446px]"
+        md:leading-[64px] md:tracking-[-2px] md:w-[446px] lg:pr-[100px] lg:self-start xl:mr-[140px]"
       >
         Contact Details
       </h1>
-      <div className="flex flex-col gap-[43px] md:flex-row md:items-center md:justify-between md:w-full">
+      <div className="flex flex-col gap-[43px] md:flex-row md:items-center md:justify-between md:w-full lg:flex-col xl:items-start">
         <div className="flex flex-col gap-[14px]">
           <p className="text-[18px] text-[#60636D] fontbold leading-[35px]">
             Main Office
@@ -31,13 +34,13 @@ export default function ContactDetails() {
         <a
           target="_blank"
           href="https://www.google.com/maps/d/u/0/edit?mid=1WHvigrNtoqLTsDEahSfbd-DWvInBbjE&usp=sharing"
-          className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] md:self-end md:mb-[13px]"
+          className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px] md:self-end md:mb-[13px] lg:self-start"
         >
           View on Map <Image src={ArrowSvg} alt="arrow svg" />
         </a>
       </div>
 
-      <div className="flex flex-col gap-[43px] md:flex-row md:items-center md:justify-between md:w-full">
+      <div className="flex flex-col gap-[43px] md:flex-row md:items-center md:justify-between md:w-full lg:flex-col xl:items-start">
         <div className="flex flex-col gap-[14px]">
           <p className="text-[18px] text-[#60636D] fontbold leading-[35px]">
             Office II
@@ -57,7 +60,7 @@ export default function ContactDetails() {
         <a
           target="_blank"
           href="https://www.google.com/maps/d/u/0/edit?mid=1WHvigrNtoqLTsDEahSfbd-DWvInBbjE&usp=sharing"
-          className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]  md:self-end md:mb-[13px]"
+          className="flex flex-row items-center gap-[48px] text-[18px] text-[#1B1D23] font-bold leading-[25px]  md:self-end md:mb-[13px] lg:self-start"
         >
           View on Map <Image src={ArrowSvg} alt="arrow svg" />
         </a>
