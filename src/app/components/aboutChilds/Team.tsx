@@ -1,6 +1,6 @@
 const Team = (): JSX.Element => {
   return (
-    <div className="flex w-[375px] flex-col items-start justify-center gap-[20px] md:w-[573px]	md:relative ">
+    <div className="flex w-[375px] flex-col items-start justify-center gap-[20px] md:w-[573px]	md:relative lg:w-[860px]">
       <div className="relative w-full h-[240px] bg-aboutMob bg-no-repeat bg-cover flex items-end justify-start md:w-[573px] md:h-[760px] md:bg-aboutTab">
         <div className="bg-white w-[343px] h-[45px] z-10 md:hidden"></div>
         <div className="bg-black absolute w-full h-full left-0 top-0 opacity-50"></div>
@@ -8,7 +8,7 @@ const Team = (): JSX.Element => {
 
       <div
         className="flex flex-col gap-[76px] items-start px-[32px] md:absolute md:bg-[#FFFFFF] md:w-[515px] md:bottom-[-1px] md:right-[-1px] 
-      md:pl-[59px] md:pr-0 md:flex-col-reverse"
+      md:pl-[59px] md:pr-0 md:flex-col-reverse lg:right-[-120px] lg:pt-[160px] "
       >
         <div className="flex flex-col gap-[21px] w-full">
           <h1
@@ -25,10 +25,10 @@ const Team = (): JSX.Element => {
           </p>
         </div>
 
-        <hr className="bg-[#C8CCD8] border-none w-[65px] h-[1px] md:mt-[85px]" />
+        <hr className="bg-[#C8CCD8] border-none w-[65px] h-[1px] md:mt-[85px] lg:mt-0" />
         <h1
           className="text-[120px] text-[#EEEFF4] leading-[200px] tracking-[-3px] hidden md:block mb-[-50px] md:absolute 
-        md:right-[204px] top-[-87px] left-[125px]"
+        md:right-[204px] top-[-87px] left-[125px] lg:text-[250px] lg:tracking-[5px] lg:left-[-150px]"
         >
           About
         </h1>
