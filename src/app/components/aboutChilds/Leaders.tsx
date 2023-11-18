@@ -7,7 +7,7 @@ const Leadrs = (): JSX.Element => {
     }[];
   }
 
-  // დასამატებელია ჰოვერებზე ინსტგრამი და ა.შ ;
+  // დასამატებელია ჰოვერებზე ინსტგრამი და ა.შ  ;
 
   const teamLeaders: Leaders = {
     leaders: [
