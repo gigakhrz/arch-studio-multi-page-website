@@ -6,7 +6,7 @@ const Footer = (): JSX.Element => {
   return (
     <div
       className="flex flex-col items-center justify-center gap-[32px] bg-[#EEEFF4] md:flex-row md:h-[120px] md:justify-start md:w-[612px] 
-    md:gap-[40px] xl:h-[200px] lg:w-[985px] xl:self-center lg:relative xl:w-[984px] xl:mr-[120px] lg:gap[-61px]"
+    md:gap-[40px] xl:h-[200px] lg:w-[985px] xl:self-center lg:relative xl:w-[984px] xl:mr-[120px] lg:gap[-61px] lg:mb-[10px]"
     >
       <Image
         src={logoImg}
