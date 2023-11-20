@@ -26,7 +26,7 @@ const About = (): JSX.Element => {
         <Image src={arrowIcon} alt="arrow img" />
       </Link>
 
-      {/* for overlay */}
+      {/* for overlay  */}
       <div className="w-full h-full bg-black opacity-50 absolute top-0 left-0"></div>
     </div>
   );
