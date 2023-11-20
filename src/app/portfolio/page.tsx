@@ -20,7 +20,7 @@ export default function Portfolio() {
 
   //   function that catch responsive increation to change project image based on this .
   function getDeviceType() {
-    const width = window.innerWidth;
+    const width = typeof window !== "undefined" ? window.innerWidth : 0;
 
     if (width <= 768) {
       return "mobile";
