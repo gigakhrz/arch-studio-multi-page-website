@@ -61,7 +61,7 @@ const Leadrs = (): JSX.Element => {
               className="flex flex-col items-start gap-[15px] md:w-[280px] xl:w-[350px] xl:h-[320px] lg:relative group cursor-pointer"
             >
               {/* for overlay */}
-              <div className="hidden  lg:items-center justify-center  w-full h-full bg-black opacity-50 absolute top-0 left-0 lg:group-hover:flex gap-[20px]">
+              <div className="hidden  lg:items-center justify-center  w-full h-full bg-black opacity-50 absolute top-0 left-0 lg:group-hover:flex gap-[30px]">
                 <Image
                   className="z-30"
                   src={LinkedinIcon}
