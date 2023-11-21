@@ -1,3 +1,7 @@
+import Image from "next/image";
+import LinkedinIcon from "../../../../public/assets/icons/icon-linkedin.svg";
+import TwiterIcon from "../../../../public/assets/icons/icon-twitter.svg";
+
 const Leadrs = (): JSX.Element => {
   interface Leaders {
     leaders: {
@@ -57,7 +61,18 @@ const Leadrs = (): JSX.Element => {
               className="flex flex-col items-start gap-[15px] md:w-[280px] xl:w-[350px] xl:h-[320px] lg:relative group cursor-pointer"
             >
               {/* for overlay */}
-              <div className="hidden  lg:items-center justify-center  w-full h-full bg-black opacity-50 absolute top-0 left-0 lg:group-hover:flex"></div>
+              <div className="hidden  lg:items-center justify-center  w-full h-full bg-black opacity-50 absolute top-0 left-0 lg:group-hover:flex gap-[20px]">
+                <Image
+                  className="z-30"
+                  src={LinkedinIcon}
+                  alt="linkedin icon"
+                ></Image>
+                <Image
+                  className="z-30"
+                  src={TwiterIcon}
+                  alt="twitter icon"
+                ></Image>
+              </div>
               <img
                 src={leader.img}
                 alt="leader image"
