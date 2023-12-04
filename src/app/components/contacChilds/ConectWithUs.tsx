@@ -44,7 +44,7 @@ export default function ConnectWith() {
             {...register("name")}
             className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] ${
               errors.name?.message !== undefined
-                ? "placeholder-[#DF5656]"
+                ? "placeholder-[#DF5656] opacity-50"
                 : "placeholder-[#C8CCD8]"
             } outline-none`}
           />
@@ -69,7 +69,7 @@ export default function ConnectWith() {
             placeholder="Email"
             className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] ${
               errors.email?.message !== undefined
-                ? "placeholder-[#DF5656]"
+                ? "placeholder-[#DF5656] opacity-50"
                 : "placeholder-[#C8CCD8]"
             } outline-none`}
           />
@@ -92,7 +92,7 @@ export default function ConnectWith() {
               {...register("message")}
               className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] ${
                 errors.message?.message !== undefined
-                  ? "placeholder-[#DF5656] "
+                  ? "placeholder-[#DF5656] opacity-50"
                   : "placeholder-[#C8CCD8]"
               } outline-none`}
             />
