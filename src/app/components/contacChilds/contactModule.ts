@@ -1,6 +1,6 @@
 import * as yup from "yup";
 
-export const userSchema = yup.object().shape({
+const userSchema = yup.object().shape({
   name: yup.string().required("Can’t be empty"),
   email: yup
     .string()
@@ -8,3 +8,5 @@ export const userSchema = yup.object().shape({
     .required("Can’t be empty"),
   message: yup.string().required("Can’t be empty"),
 });
+
+export default userSchema;

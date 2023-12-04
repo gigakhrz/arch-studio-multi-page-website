@@ -4,7 +4,7 @@ import Image from "next/image";
 import arrowSvg from "../../../../public/assets/icons/Group 18.svg";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { userSchema } from "./contactModule";
+import userSchema from "./contactModule";
 interface emailMessage {
   name: string;
   email: string;
