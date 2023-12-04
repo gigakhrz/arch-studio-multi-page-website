@@ -42,7 +42,11 @@ export default function ConnectWith() {
             type="text"
             placeholder="Name"
             {...register("name")}
-            className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
+            className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] ${
+              errors.name?.message !== undefined
+                ? "placeholder-[#DF5656]"
+                : "placeholder-[#C8CCD8]"
+            } outline-none`}
           />
           <p
             className={`  absolute  top-[-15px]  right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px] `}
@@ -61,7 +65,11 @@ export default function ConnectWith() {
             type="email"
             {...register("email")}
             placeholder="Email"
-            className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
+            className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] ${
+              errors.email?.message !== undefined
+                ? "placeholder-[#DF5656]"
+                : "placeholder-[#C8CCD8]"
+            } outline-none`}
           />
           <p className="absolute right-0 top-[-15px] text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
             {errors.email?.message}
@@ -78,7 +86,11 @@ export default function ConnectWith() {
               type="text"
               placeholder="Message"
               {...register("message")}
-              className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
+              className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] ${
+                errors.message?.message !== undefined
+                  ? "placeholder-[#DF5656]"
+                  : "placeholder-[#C8CCD8]"
+              } outline-none`}
             />
             <p className="absolute  top-[-15px] right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
               {errors.message?.message}
