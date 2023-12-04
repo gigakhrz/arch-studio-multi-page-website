@@ -55,7 +55,9 @@ export default function ConnectWith() {
           </p>
           <hr
             className={` ${
-              errors.name?.message !== undefined ? "bg-[#DF5656]" : ""
+              errors.name?.message !== undefined
+                ? "bg-[#DF5656] opacity-50"
+                : ""
             } h-[1px] border-none bg-[#1B1D23] nameDiv:focus:h-[2px]`}
           />
         </div>
@@ -76,7 +78,9 @@ export default function ConnectWith() {
           </p>
           <hr
             className={` ${
-              errors.message?.message !== undefined ? "bg-[#DF5656]" : ""
+              errors.message?.message !== undefined
+                ? "bg-[#DF5656] opacity-50"
+                : ""
             } h-[1px] border-none bg-[#1B1D23] nameDiv:focus:h-[2px]`}
           />
         </div>
@@ -88,7 +92,7 @@ export default function ConnectWith() {
               {...register("message")}
               className={`pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] ${
                 errors.message?.message !== undefined
-                  ? "placeholder-[#DF5656]"
+                  ? "placeholder-[#DF5656] "
                   : "placeholder-[#C8CCD8]"
               } outline-none`}
             />
@@ -97,7 +101,9 @@ export default function ConnectWith() {
             </p>
             <hr
               className={` ${
-                errors.message?.message !== undefined ? "bg-[#DF5656]" : ""
+                errors.message?.message !== undefined
+                  ? "bg-[#DF5656] opacity-50"
+                  : ""
               } h-[1px] border-none bg-[#1B1D23] nameDiv:focus:h-[2px]`}
             />
           </div>
