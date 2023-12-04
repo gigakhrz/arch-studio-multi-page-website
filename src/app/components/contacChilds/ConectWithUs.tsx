@@ -44,7 +44,7 @@ export default function ConnectWith() {
             {...register("name")}
             className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
           />
-          <p className="absolute w-[40px] h-[100px] right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
+          <p className="absolute  top-[-15px]  right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
             {errors.name?.message}
           </p>
           <hr className="h-[1px] border-none bg-[#1B1D23]" />
@@ -57,7 +57,7 @@ export default function ConnectWith() {
             placeholder="Email"
             className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
           />
-          <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
+          <p className="absolute right-0 top-[-15px] text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
             {errors.email?.message}
           </p>
           <hr className="h-[1px] border-none bg-[#1B1D23]" />
@@ -70,7 +70,7 @@ export default function ConnectWith() {
               {...register("message")}
               className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
             />
-            <p className="absolute right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
+            <p className="absolute  top-[-15px] right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
               {errors.message?.message}
             </p>
             <hr className="h-[1px] border-none bg-[#1B1D23]" />
