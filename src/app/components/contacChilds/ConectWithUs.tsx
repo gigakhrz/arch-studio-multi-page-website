@@ -37,17 +37,23 @@ export default function ConnectWith() {
         onSubmit={handleSubmit(onSubmit)}
         className="w-full flex flex-col gap-[43px]"
       >
-        <div className="flex flex-col w-full gap-[21px] relative">
+        <div className="nameDiv flex flex-col w-full gap-[21px] relative">
           <input
             type="text"
             placeholder="Name"
             {...register("name")}
             className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
           />
-          <p className="absolute  top-[-15px]  right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
+          <p
+            className={`  absolute  top-[-15px]  right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px] `}
+          >
             {errors.name?.message}
           </p>
-          <hr className="h-[1px] border-none bg-[#1B1D23]" />
+          <hr
+            className={` ${
+              errors.name?.message !== undefined ? "bg-[#DF5656]" : ""
+            } h-[1px] border-none bg-[#1B1D23] nameDiv:focus:h-[2px]`}
+          />
         </div>
 
         <div className="flex flex-col w-full gap-[21px] relative">
@@ -60,7 +66,11 @@ export default function ConnectWith() {
           <p className="absolute right-0 top-[-15px] text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
             {errors.email?.message}
           </p>
-          <hr className="h-[1px] border-none bg-[#1B1D23]" />
+          <hr
+            className={` ${
+              errors.message?.message !== undefined ? "bg-[#DF5656]" : ""
+            } h-[1px] border-none bg-[#1B1D23] nameDiv:focus:h-[2px]`}
+          />
         </div>
         <div className="w-full flex flex-col items-end">
           <div className="flex flex-col w-full gap-[21px] relative">
@@ -73,7 +83,11 @@ export default function ConnectWith() {
             <p className="absolute  top-[-15px] right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
               {errors.message?.message}
             </p>
-            <hr className="h-[1px] border-none bg-[#1B1D23]" />
+            <hr
+              className={` ${
+                errors.message?.message !== undefined ? "bg-[#DF5656]" : ""
+              } h-[1px] border-none bg-[#1B1D23] nameDiv:focus:h-[2px]`}
+            />
           </div>
           <button
             type="submit"
