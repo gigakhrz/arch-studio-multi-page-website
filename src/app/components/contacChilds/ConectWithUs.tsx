@@ -23,6 +23,8 @@ export default function ConnectWith() {
   const onSubmit = (data: object) => {
     console.log(data);
   };
+
+  console.log(errors.email?.message);
   return (
     <div className="w-[375px] px-[32px] gap-[42px] flex flex-col md:w-[573px] md:p-0 lg:flex-row lg:w-[860px] xl:w-[1110px]">
       <h2
@@ -43,7 +45,7 @@ export default function ConnectWith() {
             className="pl-[34px] text-[20px] text-[#1B1D23] font-bold leading-normal tracking-[ -0.312px] placeholder-[#C8CCD8] outline-none"
           />
           <p className="absolute w-[40px] h-[100px] right-0 text-[16px] text-[#DF5656] font-bold leading-normal tracking-[-0.281px]">
-            {errors.name?.message} rameeee
+            {errors.name?.message}
           </p>
           <hr className="h-[1px] border-none bg-[#1B1D23]" />
         </div>
